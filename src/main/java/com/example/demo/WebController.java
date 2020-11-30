@@ -16,6 +16,8 @@ public class WebController {
 
     @GetMapping("/web")
     public String web(){
+
+
         System.out.println("xxx");
         return "web_demo";
     }
